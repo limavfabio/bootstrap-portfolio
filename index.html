@@ -8,30 +8,53 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid ">
-          <a class="navbar-brand text-primary" href="#">Fábio and Solomon</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Fábio and Solomon</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-light" aria-current="page" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link text-light" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link text-light" href="#contact">Contact</a>
               </li>
             </ul>
-            <span class="navbar-text">
-              Navbar text with an inline element
-            </span>
           </div>
         </div>
     </nav>
+    <section id="hero" class="container-fluid bg-dark ps-3 mx-0">
+        <h1 class="text-primary py-5">
+            Hello There!<br>We're Fábio and Solomon
+        </h1>
+        <h2 class="text-light text-primary">
+            We're programmers
+        </h2>
+        <p class="text-light w-50">We can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+        <div>
+            <ul class="list-unstyled d-inline-flex ">
+                <li>
+                    <button class="btn btn-link ps-0"><img src="Icons/iconmonstr-github-light.svg" alt=""></button>
+                </li>
+                <li>
+                    <button class="btn btn-link"><img src="Icons/iconmonstr-linkedin-light.svg" alt=""></button>
+                </li>
+                <li>
+                    <button class="btn btn-link"><img src="Icons/iconmonstr-medium-light.svg" alt=""></button>
+                </li>
+                <li>
+                    <button class="btn btn-link"><img src="Icons/iconmonstr-twitter-light.svg" alt=""></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Javascript JSDeliver link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
