@@ -8,20 +8,33 @@ $secondary:     #3c3a39 !default;
 // $light:         $gray-100 !default;
 $dark:          #1c1a19 !default;
 
+// Custom Classes
+@media screen and (min-width: 768px) {
+  .w-md-70 {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .w-lg-50 {
+    max-width: 50%;
+  }
+}
 
 //import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-
 
 //Import Fonts from Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
-    h1 {
-        font-family: 'Crete Round', serif;
-    }
-    p {
-        font-family: 'Poppins', sans-serif;
-    }
+  font-family: 'Inter', sans-serif;
+
+  h1 {
+    font-family: 'Crete Round', serif;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
 }

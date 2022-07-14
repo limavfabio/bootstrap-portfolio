@@ -1,11 +1,21 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&display=swap");
+@media screen and (min-width: 768px) {
+  .w-md-70 {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .w-lg-50 {
+    max-width: 50%;
+  }
+}
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
