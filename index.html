@@ -100,7 +100,7 @@
 
 	<!-- Contact Section -->
 	<section id="contact" class="">
-		<div>
+		<div class="container d-md-flex mt-5">
 			<!-- Container for the text -->
 			<div class="container mt-5">
 				<p class="h2 mb-4 fw-bold text-center text-md-start text-info">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -109,9 +109,16 @@
 			<div class="container">
 				<form class="send-message" action="https://formspree.io/f/xzbolebz" method="post">
 					<!-- Full name label and input -->
-					<div class="mb-3">
+					<div class="d-block d-md-none mb-3">
 						<label for="fullname" class="form-label">Email address</label>
 						<input maxlength="30" type="text" id="fullname" name="full-name" class="form-control" placeholder="Full Name" required>
+					</div>
+					<!-- First name and Last Name Label and input -->
+					<div class="d-none d-md-flex mb-3">
+						<label for="firstname" class="form-label">First Name</label>
+						<input maxlength="30" type="text" id="firstname" name="full-name" class="form-control me-2" placeholder="First Name" required>
+						<label for="lastname" class="form-label">Last Name</label>
+						<input maxlength="30" type="text" id="lastname" name="last-name" class="form-control" placeholder="Last Name" required>
 					</div>
 					<!-- Email label and input -->
 					<div class="mb-3">
