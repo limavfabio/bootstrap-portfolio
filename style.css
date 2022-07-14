@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+}
+
+.work-img {
+  background: url("./image/pro.png");
+  height: 320px;
+  background-repeat: no-repeat;
+}
+
+.other-projects {
+   height: 383px;
+   
+}
