@@ -1,5 +1,6 @@
 .list {
   list-style: none;
+  justify-content: flex-start;
 }
 
 .work-img {
