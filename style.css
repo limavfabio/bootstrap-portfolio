@@ -1,0 +1,20 @@
+.list {
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.work-img {
+  background: url("./image/pro.png");
+  height: 320px;
+  background-repeat: no-repeat;
+}
+
+.other-projects {
+   height: 383px;
+   
+}
+
+.button {
+  width: 327px;
+  background: #ca6f04;
+}
