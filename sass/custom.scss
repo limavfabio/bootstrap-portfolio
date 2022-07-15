@@ -1,0 +1,53 @@
+//Custom variables
+$primary:       #ff6b00 !default;
+$secondary:     #3c3a39 !default;
+// $success:       $green !default;
+$info:          #172b4d !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+$dark:          #1c1a19 !default;
+
+// Custom width based on viewport size Classes
+@media screen and (min-width: 768px) {
+  .w-md-70 {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .w-lg-50 {
+    max-width: 50%;
+  }
+}
+
+// Custom classes of the #Contact Section
+#contact div p {
+    font-family: inter;
+}
+
+#contact label {
+    display: none
+}
+
+#contact textarea {
+    background-color: #f8f0ed
+}
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Import Fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+
+  h1 {
+    font-family: 'Crete Round', serif;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+}
