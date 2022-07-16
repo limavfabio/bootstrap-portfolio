@@ -7,6 +7,11 @@ $info:          #172b4d !default;
 // $danger:        $red !default;
 // $light:         $gray-100 !default;
 $dark:          #1c1a19 !default;
+$btn-border-radius: none;
+$input-btn-padding-y:         .8rem !default;
+$input-btn-padding-x:         1em !default;
+$enable-rounded:              false !default;
+
 
 // Custom width based on viewport size Classes
 @media screen and (min-width: 768px) {
@@ -16,10 +21,24 @@ $dark:          #1c1a19 !default;
 }
 
 @media screen and (min-width: 960px) {
+  .w-md-50 {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
   .w-lg-50 {
     max-width: 50%;
   }
 }
+
+// Custom classes of the #works section
+.button-box {
+  border: 1px solid $secondary;
+  padding: .8em 1em;
+}
+
+
 
 // Custom classes of the #Contact Section
 #contact div p {
